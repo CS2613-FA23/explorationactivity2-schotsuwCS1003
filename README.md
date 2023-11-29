@@ -12,7 +12,7 @@ pip install pygame
 ````
 import pygame
 ````
-- ready to play!!
+- Run the program and NOW ready to play!! :)
   
 3. What purpose does your program serve? 
 - The Space Invaders game implemented using Pygame serves several purposes:
@@ -28,5 +28,8 @@ Even though Space invader is simple, it requires the implementation of game mech
 
 3.4 Customization and Expansion:
 Once the basic Space Invaders game is implemented, developers can customize and expand upon it. This might include adding new features, modifying game mechanics, incorporating different levels, or improving the graphics and sound effects. This customization allows for creativity and experimentation.
+
+And most importantly, not only the program helps developing coding skills, but also it is always fun to play a game!! 
+
 4. What would be some sample input/output?
-	- In the space invader game, sample input would be the all images, sounds, command, sizes of the game on the screen, etc. Additionally, the output is the 2D game for letting the audience play and enjoy! The image is the sample output.
+- In the space invader game, sample input would be the all images, sounds, command, sizes of the game on the screen, etc. Additionally, the output is the 2D game for letting the audience play and enjoy! The image is the sample output.
