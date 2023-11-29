@@ -1,3 +1,4 @@
+![Screenshot 2023-11-28 234836](https://github.com/CS2613-FA23/explorationactivity2-schotsuwCS1003/assets/97477021/441641bc-2adc-4e05-bb22-d2083c8d9dc2)
 1.Which package/library does the sample program demonstrate? 
 - Pygame package in Python
   
