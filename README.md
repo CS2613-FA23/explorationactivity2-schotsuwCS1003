@@ -1,8 +1,8 @@
 ![Screenshot 2023-11-28 234836](https://github.com/CS2613-FA23/explorationactivity2-schotsuwCS1003/assets/97477021/441641bc-2adc-4e05-bb22-d2083c8d9dc2)
-1.Which package/library does the sample program demonstrate? 
+Which package/library does the sample program demonstrate? 
 - Pygame package in Python
-  
-2. How does someone run your program? 
+
+How to run the program? 
 - Import Pygame package in python by typing the following command in your terminal (better in Visual studio code)
 ````
 pip install pygame
@@ -14,7 +14,7 @@ import pygame
 ````
 - Run the program and NOW ready to play!! :)
   
-3. What purpose does your program serve? 
+What purpose does the program serve? 
 - The Space Invaders game implemented using Pygame serves several purposes:
 
 3.1 Learning Game Development
@@ -31,5 +31,5 @@ Once the basic Space Invaders game is implemented, developers can customize and 
 
 And most importantly, not only the program helps developing coding skills, but also it is always fun to play a game!! 
 
-4. What would be some sample input/output?
+What would be some sample input/output?
 - In the space invader game, sample input would be the all images, sounds, command, sizes of the game on the screen, etc. Additionally, the output is the 2D game for letting the audience play and enjoy! The image is the sample output.
