@@ -110,6 +110,27 @@ while run:
     pygame.display.update()
 pygame.quit()
 ```
+- Ex. Now, we have the background and the spaceship, let's move the space hip to the left and right but not exceed the set up screen. Add the following code into the spaceship class.
+```
+def update(self):
+        #set moevment speed
+        speed = 8
+        #get key press
+        #contains all the key that has been pressed
+        key = pygame.key.get_pressed()
+        #if left k has been pressed
+        #limit it to be at the end of both side of screen
+        if key[pygame.K_LEFT] and self.rect.left > 0:
+            #move left
+            self.rect.x -= speed #decrease by 8 each time
+        if key[pygame.K_RIGHT] and self.rect.right < screen_width:
+            #move to right
+            self.rect.x += speed
+```
+Next, add this following code in the while loop after the event handler. We just simply called the moving function from the spaceship class.
+```
+spaceship.update()
+```
 - Ex. Games with no sound will not satisfy the joy of playing. Here is the simple way to put in the sound every time the spaceship shoots, gets hit, or destroyed. [3]
 #load sounds
 ```
