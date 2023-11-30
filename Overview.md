@@ -70,10 +70,22 @@ while run:
 pygame.quit()
 ```
 
-Ex. Creating a spaceship class to draw and have multiple desired function like shooting.
+Ex. Creating a spaceship class to draw and have multiple desired function.
 ```
+import pygame
+#define size
+screen_width = 1200
+screen_height = 600
+screen = pygame.display.set_mode((screen_width, screen_height))
+pygame.display.set_caption('Space Invader YUH YUH')
+#limited fps(framerate)
+fps = 180
+#define fps
+clock = pygame.time.Clock()
 #load background
 background = pygame.image.load("space_bg.png")
+def draw_background():
+    screen.blit(background, (0, 0))
 #create spcaeship class
 class Spaceship(pygame.sprite.Sprite):
     #self, position at x and y
@@ -82,6 +94,7 @@ class Spaceship(pygame.sprite.Sprite):
         self.image = pygame.image.load("spaceship.png")
         self.rect = self.image.get_rect()
         self.rect.center = [x, y]
+
 #create sprite groups
 #work as a list
 spaceship_group = pygame.sprite.Group()
@@ -89,9 +102,7 @@ spaceship_group = pygame.sprite.Group()
 #at the center, and the bottom
 spaceship = Spaceship(int(screen_width / 2), screen_height - 100)
 spaceship_group.add(spaceship)
- 
-Now we add spacehip_group inside the while loop.
-
+run = True
 while run:
     clock.tick(fps)
     #draw background
@@ -105,6 +116,7 @@ while run:
             run = False 
     #update background, aliens, etc.
     pygame.display.update()
+pygame.quit()
 ```
 Ex. Games with no sound will not satisfy the joy of playing. Here is the simple way to put in the sound every time the spaceship shoots, gets hit, or destroyed. 
 #load sounds
