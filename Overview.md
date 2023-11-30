@@ -110,7 +110,7 @@ while run:
     pygame.display.update()
 pygame.quit()
 ```
-- Ex. Now, we have the background and the spaceship, let's move the space hip to the left and right but not exceed the set up screen. Add the following code into the spaceship class.
+- Ex. Now, we have the background and the spaceship, let's move the spaceship to the left and right but not exceed the set up screen. Add the following code into the spaceship class.
 ```
 def update(self):
         #set moevment speed
