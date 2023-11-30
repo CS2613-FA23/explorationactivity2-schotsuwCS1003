@@ -142,5 +142,5 @@ References: [1] https://realpython.com/pygame-a-primer/
             [2] https://www.pygame.org/docs/tut/PygameIntro.html#:~:text=Pygame%20was%20started%20in%20October,pygame%20version%201.0%20was%20released.
             [3] https://github.com/russs123/space_invaders
 Would you continue using this package/library? Why or why not?
-- Yes, I would continure ti use it and explore more in details of the package. It remains relevant for various projects, ranging from simple games to more complex applications. Because of its simplicity, the use can be advantageous for rapid prototyping and testing game ideas. However, as developers gain more experience and venture into more advanced game development, there might be other libraries or frameworks that offer additional features or performance benefits. 
+- Yes, I would continure to use it and explore more in details of the package. It remains relevant for various projects, ranging from simple games to more complex applications. Because of its simplicity, the use can be advantageous for rapid prototyping and testing game ideas. However, as developers gain more experience and venture into more advanced game development, there might be other libraries or frameworks that offer additional features or performance benefits. 
 
