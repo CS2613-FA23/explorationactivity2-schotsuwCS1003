@@ -2,30 +2,30 @@ Which package/library did you select?
 - Pygame package in Python
   
 What is the package/library?
-- Pygame package is a Python programming language package that is both free and open source, designed for creating multimedia applications such as games.
+- Pygame package is a Python programming language package that is both free and open source, designed for creating multimedia applications such as games. [1]
 
 What purpose does it serve?
-- Creating a simple game like Space Invaders using Pygame is a common project for beginners learning game development. It allows individuals to understand the basics of game architecture, graphics rendering, user input handling, collision detection, and many more! It involves using many significant concepts such as classes, functions, loops, and conditional statements to create a functioning game.
-- Pygame is a popular library for creating 2D games in Python. Building Space Invaders helps developers become familiar with the Pygame library and its features, such as handling images, sounds, and input.
-- Even though Space invader is simple, it requires the implementation of game mechanics, enemy behaviors, and player controls, which can challenge developers to think critically.
-- Once the basic Space Invaders game is implemented, developers can customize and expand upon it. This might include adding new features, modifying game mechanics, incorporating different levels, or improving the graphics and sound effects. This customization allows for creativity and experimentation.
+- Creating a simple game like Space Invaders using Pygame is a common project for beginners learning game development. It allows individuals to understand the basics of game architecture, graphics rendering, user input handling, collision detection, and many more! It involves using many significant concepts such as classes, functions, loops, and conditional statements to create a functioning game. [1]
+- Pygame is a popular library for creating 2D games in Python. Building Space Invaders helps developers become familiar with the Pygame library and its features, such as handling images, sounds, and input. [1]
+- Even though Space invader is simple, it requires the implementation of game mechanics, enemy behaviors, and player controls, which can challenge developers to think critically. [1]
+- Once the basic Space Invaders game is implemented, developers can customize and expand upon it. This might include adding new features, modifying game mechanics, incorporating different levels, or improving the graphics and sound effects. This customization allows for creativity and experimentation. [1]
 
 What would be some sample input/output?
 - In the space invader game, sample input would be all images, sounds, commands, sizes of the game on the screen, etc. Additionally, the output is the 2D game for letting the audience play and enjoy.
 
 How do you use it? 
-- Import Pygame package in python by typing the following command in your terminal (better in Visual studio code)
+- Import Pygame package in python by typing the following command in your terminal (better in Visual studio code) [1]
 ```
 pip install pygame
 ```
-- then type the following import statement in your program
+- then type the following import statement in your program [1]
 ```
 import pyame
 ```
 - Design the simple game as we want.
 
 What are the functionalities of the package/library? 
-- Ex. Starting by creating a simple show screen with a desired background. Make sure that your images file are in the same directory with your code file.
+- Ex. Starting by creating a simple show screen with a desired background. Make sure that your images file are in the same directory with your code file. [3]
 ```
 import pygame
 #define size
@@ -62,7 +62,7 @@ while run:
 pygame.quit()
 ```
 
-- Ex. Creating a spaceship class to draw and have multiple desired function.
+- Ex. Creating a spaceship class to draw and have multiple desired function. [3]
 ```
 import pygame
 #define size
@@ -110,7 +110,7 @@ while run:
     pygame.display.update()
 pygame.quit()
 ```
-- Ex. Games with no sound will not satisfy the joy of playing. Here is the simple way to put in the sound every time the spaceship shoots, gets hit, or destroyed. 
+- Ex. Games with no sound will not satisfy the joy of playing. Here is the simple way to put in the sound every time the spaceship shoots, gets hit, or destroyed. [3]
 #load sounds
 ```
 explosion_fx = pygame.mixer.Sound("explosion.wav")
@@ -125,7 +125,7 @@ laser_fx.set_volume(0.25)
 
 
 When was it created?
-- Pygame package was created on October 28th, 2000. 
+- Pygame package was created on October 28th, 2000. [2]
 
 Why did you select this package/library?
 - This package provides multiple simple, yet fundamental functions to build an interesting game as desired. Not only those functions are useful, but they also provide the basic knowledge of understating the syntax and how object-oriented programming works such as Spaceship class, Alien class, or Bullet class. Moreover, the flexibility it offers enables programmers to customize various elements, introducing different levels of complexity or unique features. For example, the ability to design varied levels for each alien or enable the spaceship to move left and right enhances the creative possibilities within the game. We could even develop a spaceship to move back and forth. Pygame allows individuals to simply code a game by supplying its easy-to-understand syntax. 
@@ -137,6 +137,10 @@ How was your overall experience with the package/library?
 - Pygame offers a positive and accessible experience for game development. Its simplicity and the ability to quickly see results make it an easy choice when it comes to building a simple game.
 When would you recommend this package/library to someone? 
 - I would recommend Pygame to someone interested in building a game, especially if they are relatively new to programming or game development. The library's simplicity and a lot of resources available, including tutorials and community support, make it a great starting point for learning about game development concepts.
+
+References: [1] https://realpython.com/pygame-a-primer/ 
+            [2] https://www.pygame.org/docs/tut/PygameIntro.html#:~:text=Pygame%20was%20started%20in%20October,pygame%20version%201.0%20was%20released.
+            [3] https://github.com/russs123/space_invaders
 Would you continue using this package/library? Why or why not?
 - Yes, I would continure ti use it and explore more in details of the package. It remains relevant for various projects, ranging from simple games to more complex applications. Because of its simplicity, the use can be advantageous for rapid prototyping and testing game ideas. However, as developers gain more experience and venture into more advanced game development, there might be other libraries or frameworks that offer additional features or performance benefits. 
 
