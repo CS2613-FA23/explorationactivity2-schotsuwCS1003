@@ -20,7 +20,7 @@ pip install pygame
 ```
 - then type the following import statement in your program [1]
 ```
-import pyame
+import pygame
 ```
 - Design the simple game as desired.
 
