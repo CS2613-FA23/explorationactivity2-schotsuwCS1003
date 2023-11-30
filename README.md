@@ -33,4 +33,4 @@ Once the basic Space Invaders game is implemented, developers can customize and 
 And most importantly, not only the program helps developing coding skills, but also it is always fun to play a game!! 
 
 What would be some sample input/output?
-- In the space invader game, sample input would be the all images, sounds, command, sizes of the game on the screen, etc. Additionally, the output is the 2D game for letting the audience play and enjoy! The image is the sample output.
+- In the space invader game, sample input would be the all images, sounds, command, sizes of the game on the screen, etc. Additionally, the output is the 2D game for letting the audience play and enjoy! The 2D game is the sample output.
