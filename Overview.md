@@ -145,7 +145,7 @@ laser_fx.set_volume(0.25)
 ```
 We can simply call each sound and play by typing the folowing command inside the class or anywhere we desired to.
 ```
-<SONG>.play()
+<SONG_VARIABLE>.play()
 ```
 For example, 
 
