@@ -1,25 +1,18 @@
 Which package/library did you select?
 - Pygame package in Python
 What is the package/library?
--	Pygame package is a Python programming language package that is both free and open source, designed for creating multimedia applications such as games.
+- Pygame package is a Python programming language package that is both free and open source, designed for creating multimedia applications such as games.
 What purpose does it serve?
-Learning Game Development:
-Creating a simple game like Space Invaders using Pygame is a common project for beginners learning game development. It allows individuals to understand the basics of game architecture, graphics rendering, user input handling, collision detection, and many more! It involves using many significant concepts such as classes, functions, loops, and conditional statements to create a functioning game.
-
-Understanding Pygame Library:
-Pygame is a popular library for creating 2D games in Python. Building Space Invaders helps developers become familiar with the Pygame library and its features, such as handling images, sounds, and input.
-
-Problem-Solving and Logic:
-Even though Space invader is simple, it requires the implementation of game mechanics, enemy behaviors, and player controls, which can challenge developers to think critically.
-
-Customization and Expansion:
-Once the basic Space Invaders game is implemented, developers can customize and expand upon it. This might include adding new features, modifying game mechanics, incorporating different levels, or improving the graphics and sound effects. This customization allows for creativity and experimentation.
+- Creating a simple game like Space Invaders using Pygame is a common project for beginners learning game development. It allows individuals to understand the basics of game architecture, graphics rendering, user input handling, collision detection, and many more! It involves using many significant concepts such as classes, functions, loops, and conditional statements to create a functioning game.
+- Pygame is a popular library for creating 2D games in Python. Building Space Invaders helps developers become familiar with the Pygame library and its features, such as handling images, sounds, and input.
+- Even though Space invader is simple, it requires the implementation of game mechanics, enemy behaviors, and player controls, which can challenge developers to think critically.
+- Once the basic Space Invaders game is implemented, developers can customize and expand upon it. This might include adding new features, modifying game mechanics, incorporating different levels, or improving the graphics and sound effects. This customization allows for creativity and experimentation.
 
 
 What would be some sample input/output?
 - In the space invader game, sample input would be all images, sounds, commands, sizes of the game on the screen, etc. Additionally, the output is the 2D game for letting the audience play and enjoy.
 
-• How do you use it? 
+How do you use it? 
 - Import Pygame package in python by typing the following command in your terminal (better in Visual studio code)
 ```
 pip install pygame
