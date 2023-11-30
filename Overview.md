@@ -132,8 +132,8 @@ Next, add this following code in the while loop after the event handler. We just
 spaceship.update()
 ```
 - Ex. Games with no sound will not satisfy the joy of playing. Here is the simple way to put in the sound every time the spaceship shoots, gets hit, or destroyed. [3]
-#load sounds
 ```
+#load sounds
 explosion_fx = pygame.mixer.Sound("explosion.wav")
 explosion_fx.set_volume(0.25)
 
@@ -143,7 +143,18 @@ explosion2_fx.set_volume(105)
 laser_fx = pygame.mixer.Sound("laser.wav")
 laser_fx.set_volume(0.25)
 ```
+We can simply call each sound and play by typing the folowing command inside the class or anywhere we desired to.
+```
+<SONG>.play()
+```
+For example, 
 
+```
+#shooting by tapping a spacebar and if half of the time has passed
+if key[pygame.K_SPACE] and time_now - self.last_shot > cooldown:
+  #play the sound everytime it got hit
+  laser_fx.play()
+```
 
 When was it created?
 - Pygame package was created on October 28th, 2000. [2]
