@@ -22,7 +22,7 @@ pip install pygame
 ```
 import pyame
 ```
-- Design the simple game as we want.
+- Design the simple game as desired.
 
 What are the functionalities of the package/library? 
 - Ex. Starting by creating a simple show screen with a desired background. Make sure that your images file are in the same directory with your code file. [3]
