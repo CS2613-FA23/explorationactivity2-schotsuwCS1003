@@ -1,13 +1,14 @@
 Which package/library did you select?
 - Pygame package in Python
+  
 What is the package/library?
 - Pygame package is a Python programming language package that is both free and open source, designed for creating multimedia applications such as games.
+
 What purpose does it serve?
 - Creating a simple game like Space Invaders using Pygame is a common project for beginners learning game development. It allows individuals to understand the basics of game architecture, graphics rendering, user input handling, collision detection, and many more! It involves using many significant concepts such as classes, functions, loops, and conditional statements to create a functioning game.
 - Pygame is a popular library for creating 2D games in Python. Building Space Invaders helps developers become familiar with the Pygame library and its features, such as handling images, sounds, and input.
 - Even though Space invader is simple, it requires the implementation of game mechanics, enemy behaviors, and player controls, which can challenge developers to think critically.
 - Once the basic Space Invaders game is implemented, developers can customize and expand upon it. This might include adding new features, modifying game mechanics, incorporating different levels, or improving the graphics and sound effects. This customization allows for creativity and experimentation.
-
 
 What would be some sample input/output?
 - In the space invader game, sample input would be all images, sounds, commands, sizes of the game on the screen, etc. Additionally, the output is the 2D game for letting the audience play and enjoy.
@@ -24,7 +25,6 @@ import pyame
 - Design the simple game as we want.
 
 What are the functionalities of the package/library? 
-
 - Ex. Starting by creating a simple show screen with a desired background. Make sure that your images file are in the same directory with your code file.
 ```
 import pygame
@@ -129,8 +129,6 @@ When was it created?
 
 Why did you select this package/library?
 - This package provides multiple simple, yet fundamental functions to build an interesting game as desired. Not only those functions are useful, but they also provide the basic knowledge of understating the syntax and how object-oriented programming works such as Spaceship class, Alien class, or Bullet class. Moreover, the flexibility it offers enables programmers to customize various elements, introducing different levels of complexity or unique features. For example, the ability to design varied levels for each alien or enable the spaceship to move left and right enhances the creative possibilities within the game. We could even develop a spaceship to move back and forth. Pygame allows individuals to simply code a game by supplying its easy-to-understand syntax. 
-
-
 
 How did learning the package/library influence your learning of the language? 
 - The process of learning the Pygame library has significantly influenced my understanding of the Python programming language. By working with Pygame, I have gained insights into various aspects of programming, particularly in the context of game development. For example, Pygame encourages the use of object-oriented programming principles. Building classes for game elements like spaceship character, bullet object, or a background scene becomes essential. This provides me more of the perspective of OOP concepts in Python, such as encapsulation, inheritance, and polymorphism. Moreover, I could get to practice more of the Object Manipulation. Working with Pygame involves extensive manipulation of game objects on the screen. This has improved my skills in handling objects, including their creation, modification, and interaction within a program. In terms of designing Game Logic, it involves planning how different elements interact, respond to user input, and contribute to the overall gaming experience. In summary, learning Pygame has not only advanced my skills in game development but has also practiced my understanding of Python's capabilities, particularly in areas such as object-oriented design, problem-solving, and overall software development.
